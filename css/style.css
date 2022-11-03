@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** 1rem = 10px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+/** GLOBALES**/
+
+img {
+    display: flex;
+    justify-content: space-between;
+    max-width: 45%;
+    text-align: center center;
+    margin: 4rem auto;
+}
+
+img:first-of-type {
+    margin-top: 2rem;
+}
