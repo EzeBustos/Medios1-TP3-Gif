@@ -99,6 +99,20 @@ a {
 }
 
 
+/*** MAIN ***/
+
+.card-img-overlay h4 {
+    font-weight: bold;
+}
+
+
+/*PROFESORES*/
+
+.contenido-prof {
+    margin-bottom: 1.5rem;
+}
+
+
 /*** FOOTER ***/
 
 footer {
