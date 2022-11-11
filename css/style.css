@@ -25,14 +25,14 @@ img {
 
 h1 {
     font-size: 2.5rem;
-    color: #fff;
+    /*color: #fff;*/
     font-weight: 500;
     margin-bottom: 0;
 }
 
 h2 {
     font-size: 1.5rem;
-    color: #fff;
+    /*color: #fff;*/
     font-weight: 300;
 }
 
@@ -101,12 +101,43 @@ a {
 
 /*** MAIN ***/
 
-.card-img-overlay h4 {
-    font-weight: bold;
+.contenido-gif {
+    background-image: url(../gif/fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.contenedor-gif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-gif img {
+    max-width: 30%;
+    margin-top: 1.5rem;
+}
+
+.contenedor-gif #caida {
+    max-width: 500%;
 }
 
 
-/*PROFESORES*/
+/*trabajos*/
+
+.prox {
+    text-align: center;
+    margin: 10rem auto;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+/*PROFESORES Y ALUMNOS*/
+
+.card-img-overlay h4 {
+    font-weight: bold;
+}
 
 .contenido-prof {
     margin-bottom: 1.5rem;
