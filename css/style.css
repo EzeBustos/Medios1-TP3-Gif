@@ -63,8 +63,25 @@ a {
 
 audio {
     position: fixed;
-    max-width: 10%;
+    max-width: 18%;
     margin-top: 4rem;
+    opacity: 0.2;
+}
+
+.centrar-txt {
+    text-align: center;
+}
+
+.titulos {
+    margin-top: 4rem;
+}
+
+.sub-titulos {
+    margin: 4rem 0 1rem;
+}
+
+.margen-parrafos {
+    margin-top: 1rem;
 }
 
 
@@ -136,6 +153,15 @@ audio {
     margin: 10rem auto;
     font-weight: 300;
     font-style: italic;
+}
+
+#carouselExampleDark {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.centrar {
+    text-align: center;
 }
 
 
